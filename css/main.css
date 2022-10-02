@@ -1,0 +1,1271 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Source Serif Pro', serif;
+            width: 100%;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .clr {
+            clear: both;
+        }
+        
+        li {
+            list-style: none;
+        }
+        /*start sec1*/
+        
+        .sec1 {
+            background-image: url("../image/full-3.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .sec1 .one {
+            margin: 12% 10%;
+        }
+        
+        .iconns .tico {
+            width: 40px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 3px;
+            position: fixed;
+            top: 20%;
+            right: 0;
+        }
+        
+        .iconns .tico li {
+            margin: 10px 5px;
+            font-size: 22px;
+        }
+        
+        .iconns .tico li .set {
+            color: #110a3d;
+        }
+        
+        .iconns .tico li .buy {
+            color: gray;
+        }
+        
+        .sec1 .one .text {
+            color: aliceblue;
+        }
+        
+        .iconns .tico li:hover a {
+            color: #1da1f2;
+        }
+        
+        .sec1 .one .text p {
+            font-size: 20px;
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        
+        .sec1 .one .text h1 {
+            font-size: 75px;
+            font-weight: 400;
+        }
+        
+        .sec1 .one .but .btn1 {
+            width: 130px;
+            height: 50px;
+            background-color: #fff;
+            font-size: 12px;
+            margin: 15px 0;
+            padding: 15px 15px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .sec1 .one .but .btn1:hover {
+            background-color: #fff;
+            opacity: 0.8;
+        }
+        
+        .sec1 .animation {
+            width: 30px;
+            height: 50px;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 10px;
+            margin-left: 49%;
+        }
+        
+        .sec1 .animation .ani {
+            width: 7px;
+            height: 7px;
+            border-radius: 50px;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: 9px;
+            transition: all 1s;
+            transition-timing-function: ease-in-out;
+            animation-name: point;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes point {
+            0% {
+                top: 0;
+                opacity: 1;
+            }
+            50% {
+                top: 50px;
+                opacity: 0;
+            }
+            100% {
+                top: 0px;
+                opacity: 0;
+            }
+        }
+        /*end sec1*/
+        /*start sec2*/
+        
+        .sec2 {
+            background-color: #161616;
+            overflow: hidden;
+        }
+        
+        .sec2 .two {
+            text-align: center;
+            margin: 6% 0;
+        }
+        
+        .sec2 .two h2 {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .sec2 .two p {
+            color: gray;
+            font-size: 17px;
+            line-height: 1.8;
+            margin-top: 40px;
+        }
+        /*end sec2*/
+        /* start sec3*/
+        
+        .sec3 {
+            background-color: #1d1d1d;
+            overflow: hidden;
+        }
+        
+        .sec3 .three {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .sec3 .three .part {
+            width: 50%;
+            float: left;
+        }
+        
+        .sec3 .three .part img {
+            padding: 80px 80px;
+        }
+        
+        .sec3 .three .part .part1 {
+            margin: 25% 0px;
+        }
+        
+        .sec3 .three .part .part1 h2 {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .sec3 .three .part .part1 p {
+            color: gray;
+            font-size: 16px;
+            line-height: 2.1;
+        }
+        
+        .sec3 .three .part .part1 .p1 {
+            margin-top: 20px;
+        }
+        
+        .sec3 .three .part .part1 .line {
+            background-color: gray;
+            margin: 20px 0px;
+            width: 40px;
+            height: 0.1px;
+            border: none;
+        }
+        
+        .sec3 .three .part .part1 .p2 {
+            margin-top: 30px;
+        }
+        /* end sec3*/
+        /* start sec4*/
+        
+        .sec4 {
+            background-color: #161616;
+            overflow: hidden;
+        }
+        
+        .sec4 .four {
+            padding: 60px;
+        }
+        
+        .sec4 .four .lable {
+            text-align: center;
+        }
+        
+        .sec4 .four .lable h3 {
+            color: #fff;
+            font-weight: 400;
+            font-size: 30px;
+        }
+        
+        .sec4 .four .lable p {
+            color: gray;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+        
+        .sec4 .four .list {
+            color: gray;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 50px;
+        }
+        
+        .sec4 .four .list li {
+            display: inline;
+            margin-left: 15px;
+        }
+        
+        .sec4 .four .list li:hover {
+            color: #fff;
+        }
+        
+        .sec4 .four .photos {
+            margin: 20px 0px;
+            padding: 40px 11%;
+        }
+        
+        .sec4 .four .photos .photo {
+            width: 33%;
+            float: left;
+            padding: 0px 10px;
+            margin-top: 5px;
+            position: relative;
+        }
+        
+        .sec4 .four .photos .manyphoto {
+            margin: 10px 0px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sec4 .four .photos .photo .manyphoto .overlayer {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.397);
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: all 1s;
+            z-index: 99;
+        }
+        
+        .sec4 .four .photos .photo img {
+            transition: all 1s;
+        }
+        
+        .sec4 .four .photos .photo .manyphoto:hover .overlayer {
+            opacity: 0.7;
+        }
+        
+        .sec4 .four .photos .photo .manyphoto:hover {
+            transform: scale(1.1);
+        }
+        
+        .sec4 .four .photos .photo .manyphoto .overlayer .btn5 {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            text-align: center;
+            border: none;
+            border-radius: 70%;
+            top: 45%;
+            left: 30%;
+            margin-left: 15px;
+            transform: translateY(10px);
+        }
+        
+        .sec4 .four .photos .photo .manyphoto:hover .overlayer .btn5 {
+            transform: translateY(0px);
+        }
+        
+        .sec4 .four .butt {
+            margin: auto;
+            text-align: center;
+        }
+        
+        .sec4 .four .butt .btn2 {
+            width: 7%;
+            height: 50px;
+            background-color: gray;
+            font-size: 17px;
+            color: #fff;
+        }
+        /* end sec4*/
+        /* start sec5*/
+        
+        .sec5 {
+            background-color: #1d1d1d;
+            overflow: hidden;
+        }
+        
+        .sec5 .five {
+            margin: 80px 0px;
+        }
+        
+        .sec5 .five .tit {
+            text-align: center;
+        }
+        
+        .sec5 .five .tit h4 {
+            color: #fff;
+            font-weight: 400;
+            font-size: 30px;
+        }
+        
+        .sec5 .five .tit p {
+            color: gray;
+            font-size: 17px;
+            margin-top: 20px;
+        }
+        
+        .sec5 .five .divs {
+            margin: 50px 50px;
+            padding: 30px 50px;
+        }
+        
+        .sec5 .five .divs .manydiv {
+            width: 30%;
+            height: 60%;
+            margin: 0 20px;
+            padding: 20px 20px;
+            background-color: rgba(128, 128, 128, 0.144);
+            float: left;
+        }
+        
+        .sec5 .five .divs .manydiv h4 {
+            color: #fff;
+            font-size: 25px;
+            width: 400;
+        }
+        
+        .sec5 .five .divs .manydiv p {
+            color: gray;
+            line-height: 1.8;
+        }
+        
+        .sec5 .five .divs .manydiv .p5 {
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        
+        .sec5 .five .divs .manydiv .p6 {
+            font-size: 17px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .sec5 .five .divs .manydiv a {
+            text-decoration: none;
+            color: #fff;
+            margin-top: 30px;
+            font-size: 15px;
+            float: left;
+        }
+        
+        .sec5 .five .divs .manydiv a:hover {
+            color: gray;
+        }
+        
+        .sec5 .five .divs .manydiv a::after {
+            font-family: "Font Awesome 6 Free ";
+            content: "\f30b";
+        }
+        
+        .sec5 .five .boot {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .sec5 .five .boot .toblog {
+            background-color: #66B4CE;
+            width: 10%;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #fff;
+        }
+        
+        .sec5 .five .boot .toblog:hover {
+            background-color: gray;
+        }
+        
+        .sec5 .five .boot .toblog::after {
+            font-family: "Font Awesome 6 Free ";
+            content: "\f30b";
+        }
+        /* end sec5*/
+        /*about page*/
+        /*start sec6*/
+        
+        .sec6 {
+            background-image: url("../image/photo-1484519332611-516457305ff6-800x700.jpg");
+            background-position: bottom;
+            background-size: cover;
+            height: 50vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .sec6 .six {
+            text-align: center;
+            color: #fff;
+            margin-top: 10%;
+            font-family: 'Source Serif Pro';
+        }
+        
+        .sec6 .six h1 {
+            font-size: 60px;
+            font-weight: 400;
+        }
+        
+        .sec6 .six p {
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        /*end sec6*/
+        /*start sec7*/
+        
+        .sec7 {
+            background-color: #0e0e0f;
+            overflow: hidden;
+        }
+        
+        .sec7 .seven {
+            margin: 4% 5%;
+        }
+        
+        .sec7 .seven .part3 {
+            width: 45%;
+            float: left;
+        }
+        
+        .sec7 .seven .part3 .parg {
+            margin: 10% 20px;
+        }
+        
+        .sec7 .seven .part3 .parg h2 {
+            color: #fff;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        
+        .sec7 .seven .part3 .parg p {
+            color: gray;
+            font-size: 14px;
+            line-height: 2.1;
+        }
+        
+        .sec7 .seven .part3 .parg .p1 {
+            margin-top: 20px;
+        }
+        
+        .sec7 .seven .part3 .parg .line {
+            background-color: gray;
+            margin: 20px 0px;
+            width: 40px;
+            height: 0.1px;
+            border: none;
+        }
+        
+        .sec7 .seven .part3 .parg .p2 {
+            margin-top: 30px;
+        }
+        
+        .sec7 .seven .part3 img {
+            padding: 80px 80px;
+        }
+        /*end sec 7*/
+        /*start sec 8*/
+        
+        .sec8 {
+            background-color: #1d1d1d;
+            overflow: hidden;
+        }
+        
+        .sec8 .eight {
+            margin: 3% 4%;
+        }
+        
+        .sec8 .eight .part4 {
+            width: 50%;
+            float: left;
+        }
+        
+        .sec8 .eight .part4 img {
+            padding: 80px 80px;
+        }
+        
+        .sec8 .eight .part4 .pag {
+            margin: 25% 0px;
+        }
+        
+        .sec8 .eight .part4 .pag h2 {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .sec8 .eight .part4 .pag p {
+            color: gray;
+            font-size: 16px;
+            line-height: 2.1;
+        }
+        
+        .sec8 .eight .part4 .pag .p1 {
+            margin-top: 20px;
+        }
+        
+        .sec8 .eight .part4 .pag .line {
+            background-color: gray;
+            margin: 20px 0px;
+            width: 40px;
+            height: 0.1px;
+            border: none;
+        }
+        
+        .sec8 .eight .part4 .pag .p2 {
+            margin-top: 30px;
+        }
+        /*end sec 8*/
+        /*start sec 9*/
+        
+        .sec9 {
+            background-color: #161616;
+            overflow: hidden;
+        }
+        
+        .sec9 .nien {
+            margin: 70px 20px;
+            padding: 20px 20px;
+        }
+        
+        .sec9 .nien .part5 {
+            width: 25%;
+            float: left;
+        }
+        
+        .sec9 .nien .part5 .ic {
+            background-color: #333333;
+            color: #fff;
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            font-size: 30px;
+            margin-left: 37%;
+        }
+        
+        .sec9 .nien .part5 .ic i {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .sec9 .nien .part5 .txt {
+            text-align: center;
+            color: #fff;
+            margin: 50px 0;
+        }
+        
+        .sec9 .nien .part5 .txt h3 {
+            font-size: 20px;
+            width: 300;
+        }
+        
+        .sec9 .nien .part5 .txt p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+        /*end sec 9*/
+        /*start sec10*/
+        
+        .sec10 {
+            background-color: #000;
+            overflow: hidden;
+        }
+        
+        .sec10 .ten {
+            margin: 20px 30px;
+            padding: 50px 70px;
+        }
+        
+        .sec10 .ten .list {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .sec10 .ten .list ul li {
+            width: 33%;
+            float: left;
+        }
+        
+        .sec10 .ten .list li button {
+            border: none;
+            background-color: #000;
+            width: 95%;
+            height: 50px;
+            border-radius: 5px;
+            color: gray;
+            font-size: 12px;
+        }
+        
+        .sec10 .ten .twoprag {
+            margin: 50px 0;
+            padding: 30px 30px;
+            width: 50%;
+            float: left;
+            line-height: 1.8;
+            font-size: 16px;
+            color: #aca0a084;
+        }
+        /*end sec10*/
+        /*end about page*/
+        /*albums page*/
+        /*start sec11*/
+        
+        .sec11 {
+            background-color: #000;
+            overflow: hidden;
+        }
+        
+        .sec11 .eleven {
+            text-align: center;
+            color: #fff;
+            margin: 8% 0;
+            font-family: 'Source Serif Pro';
+        }
+        
+        .sec11 .eleven h1 {
+            font-size: 50px;
+            font-weight: 400;
+        }
+        
+        .sec11 .eleven p {
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        /*end sec11*/
+        /*albums page*/
+        /*start blog page*/
+        /*start sec12*/
+        
+        .sec12 {
+            background-color: #000;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .sec12 .twelve {
+            color: #fff;
+            margin: 10% 0;
+            font-family: 'Source Serif Pro';
+        }
+        
+        .sec12 .twelve h1 {
+            font-size: 40px;
+            font-weight: 400;
+            position: absolute;
+            top: 50px;
+            left: 60px;
+        }
+        /*end sec12*/
+        /*sec13*/
+        
+        .sec13 {
+            background-color: #0e0e0f;
+            overflow: hidden;
+        }
+        
+        .sec13 .part8 {
+            margin: 0px 20px;
+            padding: 40px 60px;
+            width: 60%;
+            float: left;
+        }
+        
+        .sec13 .thirtyy .half1 h4 {
+            color: #fff;
+            margin: 30px 0;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        
+        .sec13 .thirtyy .half1 .teeee {
+            margin: 0;
+            background-color: #232323;
+            overflow: hidden;
+            padding: 2px 10px;
+        }
+        
+        .sec13 .thirtyy .half1 .p5 {
+            margin: 10px 0;
+            color: aliceblue;
+            font-size: 15px;
+        }
+        
+        .sec13 .thirtyy .half1 .p6 {
+            color: aliceblue;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+        
+        .sec13 .thirtyy .half1 a {
+            text-decoration: none;
+            color: #333333;
+            margin-top: 10px;
+        }
+        
+        .sec13 .part9 {
+            margin: 10px 10px;
+            padding: 40px 20px;
+            width: 30%;
+            float: left;
+        }
+        
+        .sec13 .part9 .serc .ser input {
+            width: 70%;
+            border: 1px solid gray;
+            box-sizing: 15px;
+            float: left;
+            margin: 0;
+            padding: 10px 10px;
+            background-color: transparent;
+            color: gray;
+            font-size: 18px;
+            border-right: none;
+        }
+        
+        .sec13 .part9 .serc .ser button {
+            float: left;
+            width: 10%;
+            padding: 11px;
+            background-color: transparent;
+            color: gray;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+        }
+        
+        .sec13 .part9 .lines {
+            width: 30px;
+            border: 2px solid brown;
+            margin-top: 20px;
+        }
+        /*end blog page*/
+        /*start footer*/
+        
+        .foot1 {
+            background-color: #000;
+            overflow: hidden;
+        }
+        
+        .foot1 .logo {
+            text-align: center;
+            margin: 10px 0px;
+        }
+        
+        .foot1 .logo img {
+            width: 10%;
+            margin-top: 3%;
+        }
+        
+        .foot1 .logo p {
+            margin-top: 30px;
+            color: rgba(128, 128, 128, 0.815);
+            font-size: 12px;
+        }
+        
+        .foot1 .media {
+            text-align: center;
+        }
+        
+        .foot1 .media ul {
+            margin-left: 43%;
+        }
+        
+        .foot1 .media ul li {
+            background-color: #000;
+            width: 40px;
+            height: 40px;
+            margin: 30px 4px;
+            margin-bottom: 10%;
+            border-radius: 25px;
+            float: left;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .foot1 .media ul li i {
+            color: rgba(255, 255, 255, 0.178);
+            font-size: 22px;
+            margin-top: 9px;
+        }
+        
+        .foot1 .media i:hover {
+            color: #fff;
+        }
+        
+        .foot1 .media .f:hover {
+            background-color: #4267b2;
+        }
+        
+        .foot1 .media .g:hover {
+            background-color: tomato;
+        }
+        
+        .foot1 .media .l:hover {
+            background-color: #2867b2;
+        }
+        
+        .foot1 .media .t:hover {
+            background-color: #1da1f2;
+        }
+        /*end footer*/
+        /*start media quary*/
+        
+        @media (max-width:1024px) {
+            /* start media quary sec1*/
+            sec1 .one .text h1 {
+                font-size: 95px;
+            }
+            .sec1 .one .text p {
+                font-size: 30px;
+                line-height: 2.1;
+            }
+            .sec1 .one .but .btn1 {
+                width: 140px;
+                font-size: 17px;
+                height: 70px;
+            }
+            .sec1 .animation {
+                width: 40px;
+                height: 70px;
+            }
+            .sec1 .animation .ani {
+                width: 10px;
+                height: 10px;
+                left: 13px;
+            }
+            /* end media quary sec1*/
+            /* start media quary sec3*/
+            .sec2 .two {
+                margin: 8% 0%;
+            }
+            .sec2 .two h2 {
+                font-size: 60px;
+            }
+            .sec2 .two p {
+                font-size: 20px;
+            }
+            /* end media quary sec3*/
+            /* start media quary sec3*/
+            .sec3 .three {
+                margin: 6% 0%;
+            }
+            .sec3 .three .part img {
+                margin: 10px 0px;
+                padding: 30px 5px;
+            }
+            .sec3 .three .part .part1 {
+                margin: 35px 0px;
+                padding: 20px 30px;
+            }
+            .sec3 .three .part .part1 h2 {
+                font-size: 40px;
+            }
+            .sec3 .three .part .part1 p {
+                color: gray;
+                font-size: 21px;
+                line-height: 1.8;
+            }
+            /* end media quary sec3*/
+            /* start media quary sec4*/
+            .sec4 .four .photos {
+                margin: 20px 0px;
+                padding: 10px 0%;
+            }
+            .sec4 .four .butt .btn2 {
+                width: 13%;
+            }
+            /* end media quary sec4*/
+            /* start media quary sec5*/
+            .sec5 .five .divs {
+                margin: 45px 10px;
+                padding: 30px 50px;
+            }
+            .sec5 .five .divs .manydiv {
+                width: 45%;
+                margin: 20px 20px;
+            }
+            .sec5 .five .boot .toblog {
+                width: 20%;
+            }
+            /* end media quary sec5*/
+            /* start media quary sec6*/
+            .sec6 {
+                height: 35vh;
+            }
+            /* end media quary sec6*/
+            /* start media quary sec7*/
+            .sec7 .seven {
+                margin: 1% 1%;
+            }
+            .sec7 .seven .part3 {
+                width: 100%;
+            }
+            .sec7 .seven .part3 .parg {
+                margin: 5% 10px;
+            }
+            .sec7 .seven .part3 .parg p {
+                color: gray;
+                font-size: 23px;
+            }
+            .sec7 .seven .part3 img {
+                padding: 30px 30px;
+            }
+            /* end media quary sec7*/
+            /* start media quary sec8*/
+            .sec8 .eight .part4 {
+                width: 85%;
+            }
+            .sec8 .eight {
+                margin: 3% 2%;
+            }
+            .sec8 .eight .part4 img {
+                padding: 20px 40px;
+            }
+            .sec8 .eight .part4 .pag {
+                margin: 5% 0px;
+            }
+            .sec8 .eight .part4 .pag h2 {
+                font-size: 40px;
+            }
+            .sec8 .eight .part4 .pag p {
+                font-size: 20px;
+            }
+            /* end media quary sec8*/
+            /* start media quary sec9*/
+            .sec9 .nien {
+                margin: 70px 0px;
+            }
+            .sec9 .nien .part5 {
+                width: 50%;
+            }
+            /* end media quary sec9*/
+        }
+        
+        @media (max-width:768px) {
+            /* start media quary sec1*/
+            .sec1 .one .text p {
+                font-size: 17px;
+                line-height: 1.4;
+            }
+            .sec1 .one .text h1 {
+                font-size: 60px;
+            }
+            .sec1 .one .but .btn1 {
+                width: 110px;
+                height: 40px;
+                font-size: 10px;
+            }
+            .sec1 .animation {
+                width: 30px;
+                height: 50px;
+                bottom: 5px;
+                margin-left: 48%;
+            }
+            .sec1 .animation .ani {
+                width: 8px;
+                height: 8px;
+                left: 9px;
+            }
+            /* end media quary sec1*/
+            /* start media quary sec2*/
+            .sec2 .two h2 {
+                font-size: 25px;
+            }
+            .sec2 .two p {
+                color: gray;
+                font-size: 16px;
+                margin-top: 52px;
+            }
+            /* end media quary sec2*/
+            /* start media quary sec3*/
+            .sec3 .three {
+                margin: 5px 5px;
+            }
+            .sec3 .three .part {
+                width: 50%;
+            }
+            .sec3 .three .part img {
+                padding: 30px 14px;
+            }
+            .sec3 .three .part .part1 {
+                margin: 7% 0px;
+            }
+            .sec3 .three .part .part1 h2 {
+                font-size: 30px;
+            }
+            .sec3 .three .part .part1 p {
+                font-size: 16px;
+                line-height: 1.8;
+            }
+            .sec3 .three .part .part1 .line {
+                margin: 20px 5px;
+            }
+            .sec3 .three .part .part1 .p2 {
+                font-size: 15px;
+                margin-top: 20px;
+                /* end media quary sec3*/
+            }
+            /* end media quary sec3*/
+            /* start media quary sec4*/
+            .sec4 .four .photos {
+                margin: 20px 0px;
+                padding: 40px 0%;
+            }
+            .sec4 .four .butt .btn2 {
+                width: 13%;
+            }
+            /* end media quary sec4*/
+            /* start media quary sec5*/
+            .sec5 .five .divs {
+                margin: 50px 25px;
+                padding: 30px 40px;
+            }
+            .sec5 .five .divs .manydiv {
+                width: 90%;
+                height: 60%;
+                margin: 12px 0px;
+                padding: 20px 9px;
+            }
+            .sec5 .five .boot .toblog {
+                width: 25%;
+            }
+            /* end media quary sec5*/
+            /* start media quary sec6*/
+            .sec6 {
+                height: 30vh;
+            }
+            /* end media quary sec6*/
+            /* start media quary sec7*/
+            .sec7 .seven {
+                margin: 1% 1%;
+            }
+            .sec7 .seven .part3 {
+                width: 100%;
+            }
+            .sec7 .seven .part3 .parg {
+                margin: 5% 10px;
+            }
+            .sec7 .seven .part3 img {
+                padding: 30px 30px;
+            }
+            /* end media quary sec7*/
+            /* start media quary sec8*/
+            .sec8 .eight .part4 {
+                width: 90%;
+            }
+            .sec8 .eight {
+                margin: 3% 2%;
+            }
+            .sec8 .eight .part4 img {
+                padding: 20px 40px;
+            }
+            .sec8 .eight .part4 .pag {
+                margin: 5% 0px;
+            }
+            /* end media quary sec8*/
+            /* start media quary sec9*/
+            .sec9 .nien {
+                margin: 70px 0px;
+            }
+            .sec9 .nien .part5 {
+                width: 50%;
+            }
+            /* end media quary sec9*/
+            /*footer*/
+            .foot1 .media ul {
+                margin-left: 37%;
+            }
+        }
+        
+        @media (max-width:600px) {
+            /* start media quary sec1*/
+            .sec1 {
+                height: 55vh;
+                background-attachment: unset;
+            }
+            .sec1 .one .text p {
+                font-size: 12px;
+                line-height: 1.2;
+            }
+            .sec1 .one .text h1 {
+                font-size: 30px;
+            }
+            .sec1 .one .but .btn1 {
+                width: 81px;
+                height: 40px;
+                font-size: 8px;
+            }
+            .sec1 .animation {
+                width: 25px;
+                height: 40px;
+                top: 320px;
+                margin-left: 45%;
+            }
+            .sec1 .animation .ani {
+                width: 6px;
+                height: 6px;
+                left: 8px;
+            }
+            /* end media quary sec1*/
+            /* start media quary sec2*/
+            .sec2 .two h2 {
+                font-size: 25px;
+            }
+            .sec2 .two p {
+                color: gray;
+                font-size: 16px;
+                margin-top: 52px;
+                padding: 0px 32px;
+            }
+            /* end media quary sec2*/
+            /* start media quary sec3*/
+            .sec3 .three {
+                margin: 0px 0px;
+            }
+            .sec3 .three .part {
+                width: 100%;
+            }
+            .sec3 .three .part img {
+                padding: 20px 20px;
+            }
+            .sec3 .three .part img {
+                padding: 20px 20px;
+            }
+            .sec3 .three .part .part1 {
+                margin: 22px;
+            }
+            .sec3 .three .part .part1 h2 {
+                font-size: 20px;
+            }
+            .sec3 .three .part .part1 p {
+                font-size: 14px;
+                line-height: 1.8;
+            }
+            .sec3 .three .part .part1 .line {
+                margin: 20px 5px;
+            }
+            .sec3 .three .part .part1 .p2 {
+                font-size: 13px;
+                margin-top: 20px;
+            }
+            /* end media quary sec3*/
+            /* start media quary sec4*/
+            .sec4 .four .photos {
+                padding: 31px 1%;
+            }
+            .sec4 .four .photos .photo {
+                width: 49%;
+                float: left;
+                padding: 0px 8px;
+            }
+            .sec4 .four .butt .btn2 {
+                width: 15%;
+            }
+            /* end media quary sec4*/
+            /* start media quary sec5*/
+            .sec5 .five .divs {
+                margin: 30px 6px;
+                padding: 25px 25px;
+            }
+            .sec5 .five .divs .manydiv {
+                width: 100%;
+                height: 60%;
+                margin: 12px 0px;
+            }
+            .sec5 .five .boot .toblog {
+                width: 25%;
+            }
+            /* end media quary sec5*/
+            /* start media quary sec6*/
+            .sec6 {
+                height: 35vh;
+            }
+            /* end media quary sec6*/
+            /* start media quary sec7*/
+            .sec7 .seven {
+                margin: 1% 1%;
+            }
+            .sec7 .seven .part3 {
+                width: 100%;
+            }
+            .sec7 .seven .part3 .parg {
+                margin: 5% 10px;
+            }
+            .sec7 .seven .part3 img {
+                padding: 30px 30px;
+            }
+            /* end media quary sec7*/
+            /* start media quary sec8*/
+            .sec8 .eight .part4 {
+                width: 100%;
+            }
+            .sec8 .eight {
+                margin: 3% 2%;
+            }
+            .sec8 .eight .part4 img {
+                padding: 20px 40px;
+            }
+            .sec8 .eight .part4 .pag {
+                margin: 5% 0px;
+            }
+            /* end media quary sec8*/
+            /* start media quary sec9*/
+            .sec9 .nien {
+                margin: 70px 0px;
+            }
+            .sec9 .nien .part5 {
+                width: 50%;
+            }
+            /* end media quary sec9*/
+            /*footer*/
+            .foot1 .media ul {
+                margin-left: 35%;
+            }
+        }
+        /* end media quary */
